@@ -1,11 +1,11 @@
 int N;
 Console.WriteLine("Введите число : ");
 N = Convert.ToInt32(Console.ReadLine());
-for (1; i <= N; i++)
+for (int i=1; i <= N; i++)
         {
             if (i % 2 == 0) 
             {
                 Console.Write(i + " ");
             }
         }
-Console.ReadLine();
+Console.ReadKey();
