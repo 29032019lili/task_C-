@@ -11,4 +11,4 @@ else
     Console.WriteLine("да");
 }
    
-Console.ReadLine();
+Console.ReadKey();
